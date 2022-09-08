@@ -1,0 +1,87 @@
+
+.table {
+    border-collapse: collapse;
+    margin: 3% auto;
+    width: 90%;
+}
+
+.table thead tr th {
+    border-bottom: 1px solid black;
+    height: 30px;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: rgba(100, 150, 250, 0.300);
+}
+
+.table tbody tr td {
+    height: 30px;
+}
+
+.table tr a{
+    color: black;
+    text-decoration: none;
+}
+
+#thead-nome, #tbody-nome {
+    max-width: 1px;
+    overflow: auto;
+    padding: 0 0 0 5px;
+    text-align: left;
+    width: 20%;
+}
+
+#thead-telefone, #tbody-telefone {
+    max-width: 1px;
+    overflow: auto;
+    padding: 0 0 0 5px;
+    text-align: left;
+    width: 10%;
+}
+
+#thead-celular, #tbody-celular {
+    max-width: 1px;
+    overflow: auto;
+    padding: 0 0 0 5px;
+    text-align: left;
+    width: 10%;
+}
+
+#thead-email, #tbody-email {
+    max-width: 1px;
+    overflow: auto;
+    padding: 0 0 0 5px;
+    text-align: left;
+    width: 20%;
+}
+
+.table td::-webkit-scrollbar   {
+    height: 5px;
+}
+
+.table td::-webkit-scrollbar-track-piece {
+    background-color: rgba(128, 128, 128, 0.128);
+    border-radius: 10px;
+}
+
+.table td::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.256);
+    border-radius: 10px;
+}
+
+
+@media(max-width: 800px) {
+
+    #thead-telefone, #tbody-telefone {
+        display: none;
+    }
+    
+    #thead-celular, #tbody-celular {
+        display: none;
+    }
+    
+    #thead-email, #tbody-email {
+        display: none;
+    }
+}
+

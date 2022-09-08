@@ -1,0 +1,91 @@
+
+.form-contato {
+    margin: 5% auto;
+    width: 75%; 
+}
+
+.container-name {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 81.4%;
+}
+
+.container-birthday {
+    display: inline-block;
+    width: 16%;
+}
+
+.container-email {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 36.8%;
+}
+
+.container-tel {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 20%;
+}
+
+.container-cel {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 20%;
+}
+
+.container-cep {
+    display: inline-block;
+    width: 16%;
+}
+
+.container-street {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 75.1%;
+}
+
+.container-num {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 10%;
+}
+
+.container-comp {
+    display: inline-block;
+    width: 10%;
+}
+
+.container-district {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 42.6%;
+}
+
+.container-city {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 42.5%;
+}
+
+.container-uf {
+    display: inline-block;
+    width: 10%;
+}
+
+
+@media(max-width: 1350px) {
+
+    .form-contato div{
+        margin: 0;
+        width: 49.6%;
+    }
+}
+
+@media(max-width: 725px) {
+
+    .form-contato div{
+        margin: 0 2% 0 0;
+        width: 100%;
+    }
+}
+

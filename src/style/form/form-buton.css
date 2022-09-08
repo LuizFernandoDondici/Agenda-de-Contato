@@ -1,0 +1,81 @@
+
+.form-btn {
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    margin: 15px 0;
+    outline: 0;
+    padding: 10px 0;
+    text-align: center;
+    transition: all 0.5s;
+    width: 100%;
+}
+
+.form-btn:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    transition: all 0.5s;
+}
+
+#btn-save-contato {
+    background-color: mediumblue;
+    border-color: mediumblue;
+}
+
+#btn-update-contato {
+    background-color: darkcyan; 
+    border-color: darkcyan;
+}
+
+.form-link {
+    border: 1 solid;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin: 15px 0 0 0;
+    padding: 0.5%;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+    width: 48.8%;
+}
+
+.form-link:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    transition: all 0.5s;
+}
+
+#link-edit-contato {
+    background-color: green;
+    }
+
+#link-delete-contato {
+    background-color: red;
+}
+
+
+@media(max-width: 1350px) {
+
+    .form-btn{
+        width: 99.8%;
+    }
+
+    .form-link{
+        padding: 1%;
+        width: 47.5%;
+    }
+}
+
+@media(max-width: 725px) {
+
+    .form-btn{
+        width: 100%;
+    }
+
+    .form-link{
+        padding: 1%;
+        width: 97.8%;
+    }
+}
+

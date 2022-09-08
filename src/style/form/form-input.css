@@ -1,0 +1,45 @@
+
+.form-label{
+    display: block;
+    font-weight: bold;
+    margin: 0 0 0 0.5%;
+    width: 99%;
+}
+
+.form-input{
+    border: 1.5px solid grey;
+    display: block;
+    font-size: 15px;
+    margin: 5px 0 10px 0;
+    outline: 0;
+    padding: 5px 0 5px 0;
+    width: 99%;
+}
+
+.form-input:focus{
+    border-color: darkblue;
+}
+
+
+@media(max-width: 1350px) {
+
+    .form-label{
+        text-align: center;
+    }
+    
+    .form-input{
+        text-align: center;
+    }
+}
+
+@media(max-width: 725px) {
+
+    .form-label{
+        text-align: center;
+    }
+    
+    .form-input{
+        text-align: center;
+    }
+}
+

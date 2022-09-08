@@ -1,0 +1,31 @@
+
+.menu {
+    background-color: mediumblue;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.11);
+    padding: 10px 0;
+}
+
+.menu ul {
+    display: inline-block; 
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline; 
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+}
+
+.title {
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 10px 0 0 40px;
+}
+

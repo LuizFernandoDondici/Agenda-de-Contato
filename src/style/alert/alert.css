@@ -1,0 +1,16 @@
+
+.alert {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    background-color: goldenrod;
+    display: none;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.msg-alert {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
