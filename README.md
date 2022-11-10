@@ -1,6 +1,6 @@
 # Agenda de Contatos
 
-Agenda de Contatos feito com PHP 7.2, JavaScript, CSS e HTML puro. Foi utilizado o SQLite como banco de dados para esse projeto.
+Agenda de Contatos feito com [PHP 7.2](https://www.php.net/), JavaScript, CSS e HTML puro. Foi utilizado o SQLite como banco de dados para esse projeto.
 
 Como a aplicação não depende de nenhuma biblioteca externa, só é preciso baixar esse arquivo, ter o PHP instalado e o SQLite configurado.
 
